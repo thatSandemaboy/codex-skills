@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "repo": "thatSandemaboy/codex-skills",
+  "skills": [
+    {
+      "name": "readwise-categorization",
+      "path": "skills/readwise-categorization",
+      "skill_file": "skills/readwise-categorization/SKILL.md",
+      "docs": "docs/readwise-categorization.md",
+      "description": "Use when categorizing saved Readwise Reader articles/posts, assigning exactly two tags per saved document using the Domain + Lens clustering rule, and optionally writing verified tags back through the Readwise CLI.",
+      "tags": [
+        "readwise",
+        "reader",
+        "categorization",
+        "tagging"
+      ],
+      "status": "active"
+    }
+  ]
+}
