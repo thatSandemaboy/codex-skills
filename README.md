@@ -8,6 +8,7 @@ Each skill lives in `skills/<skill-name>/` and includes a `SKILL.md` file that C
 
 | Skill | Purpose | Install |
 | --- | --- | --- |
+| [illustrated-lesson-reading](skills/illustrated-lesson-reading/) | Turn lesson notes into faithful editorial HTML readings with selective explanatory diagrams. | `./scripts/install-skill.sh illustrated-lesson-reading` |
 | [readwise-categorization](skills/readwise-categorization/) | Categorize saved Readwise Reader documents with exactly two tags: `Domain + Lens`. | `./scripts/install-skill.sh readwise-categorization` |
 
 ## Install A Skill
@@ -39,6 +40,7 @@ By default, scripts install into `${CODEX_HOME:-$HOME/.codex}/skills`.
 .
 ├── README.md
 ├── docs/
+│   ├── illustrated-lesson-reading.md
 │   └── readwise-categorization.md
 ├── inventory/
 │   └── skills.json
@@ -48,6 +50,7 @@ By default, scripts install into `${CODEX_HOME:-$HOME/.codex}/skills`.
 │   └── install-skill.sh
 └── skills/
     ├── README.md
+    ├── illustrated-lesson-reading/  # Instructions, builder, design, and public sample
     └── readwise-categorization/
         ├── README.md
         └── SKILL.md

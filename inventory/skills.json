@@ -3,6 +3,15 @@
   "repo": "thatSandemaboy/codex-skills",
   "skills": [
     {
+      "name": "illustrated-lesson-reading",
+      "path": "skills/illustrated-lesson-reading",
+      "skill_file": "skills/illustrated-lesson-reading/SKILL.md",
+      "docs": "docs/illustrated-lesson-reading.md",
+      "description": "Turn lesson Markdown or reading notes into a polished, continuous HTML reading page using the user's approved white-background, black-text editorial style, with diagrams where they improve comprehension. Use when formatting other lessons like the approved illustrated reading. Not an activity-first lab or course dashboard.",
+      "tags": [],
+      "status": "active"
+    },
+    {
       "name": "readwise-categorization",
       "path": "skills/readwise-categorization",
       "skill_file": "skills/readwise-categorization/SKILL.md",
