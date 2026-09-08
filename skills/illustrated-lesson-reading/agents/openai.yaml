@@ -1,0 +1,4 @@
+interface:
+  display_name: "Illustrated Lesson Reading"
+  short_description: "Editorial HTML readings with clear supporting diagrams"
+  default_prompt: "Use $illustrated-lesson-reading to turn these lesson notes into the approved white-background, black-text illustrated reading style."
